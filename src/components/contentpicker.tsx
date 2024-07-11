@@ -204,7 +204,7 @@ export function ContentPicker() {
             <Input
               placeholder="Search content items..."
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSearchTerm(e.target.value)}
               className="mb-2"
             />
             {filteredContentItems.map((item, index) => (

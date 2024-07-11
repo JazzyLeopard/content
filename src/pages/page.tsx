@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ContentPicker from "@/components/contentpicker";
+import ContentPicker from "@/components/contentpicker"
 
 export default function Home() {
   return (
